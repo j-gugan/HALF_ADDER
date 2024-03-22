@@ -16,4 +16,15 @@ STEP:1 Start the Xilinx navigator, Select and Name the New project. STEP:2 Selec
 # Carry = A AND B
 ![image](https://github.com/RESMIRNAIR/HALF_ADDER/assets/154305926/988ae131-0822-4d23-941b-eaafad349a72)
 # Program:
+```
+module Half_adder(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor g1(sum,a,b);
+and g2(carry,a,b);
+endmodule
+```
+# output:
+![image](https://github.com/j-gugan/HALF_ADDER/assets/163828735/8f4243eb-0ca4-47ee-9f19-096eb2fe3794)
+
 
